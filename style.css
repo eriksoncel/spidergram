@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+:root{
+    --main-bg-color: var(rgb(243, 243, 243));
+    --group-bg-color: var(#fff);
+    --login-bg-color: var(#0095f6);
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    background-color: var(--main-bg-color);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.s-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 60%;
+    height: 100vh;
+}
+
+.s-phone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.s-phone img{
+    height: 50rem;
+}
