@@ -7,16 +7,10 @@
     font-size: 14px;
 }
 
-:root{
-    --main-bg-color: var(rgb(243, 243, 243));
-    --group-bg-color: var(#fff);
-    --login-bg-color: var(#0095f6);
-}
-
 body{
     width: 100%;
     min-height: 100vh;
-    background-color: var(--main-bg-color);
+    background-color: #BFC9CA ;
     margin: 0;
     padding: 0;
     display: flex;
@@ -40,4 +34,97 @@ body{
 
 .s-phone img{
     height: 50rem;
+}
+
+.s-continue{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 50%;
+    min-height: 34rem;
+}
+
+.s-continue_group{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: #BDC3C7 ;
+    width: 100%;
+    padding: 1.3rem 0;
+    border: 1px solid lightslategray;
+}
+
+.s-continue_group:nth-child(1){
+    min-height: 19rem;
+}
+
+.s-logo{
+    height: 3rem;
+}
+
+.s-profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.s-profile img{
+    height: 6rem;
+}
+
+.s-login{
+    background-color: #0095f6;
+    color: #fff;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.s-logout{
+    color: #0095f6;
+    margin-top: 1rem;
+}
+
+.s-not_account{
+    color: darkslategray; /*rgb(160, 160, 160)*/
+}
+
+.s-link{
+    color: #0095f6;
+}
+
+.s-get_app{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 1.3rem 0;
+    color: darkslategray;
+    font-weight: 700;
+}
+
+.s-download{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem;
+}
+
+.s-download_app{
+    height: 3rem;
+    width: 10rem;
+    background-size: cover;
+}
+
+.s-download_app:nth-child(1){
+    background-image: url(img/apple-button.png);
+}
+
+.s-download_app:nth-child(2){
+    background-image: url(img/googleplay-button.png);
 }
